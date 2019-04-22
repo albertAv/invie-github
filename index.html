@@ -6,12 +6,23 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Guitarras</title>
 	<style media="screen">
+
 		body {
 			border : 10px;
+}
+	img#responsive {
+		display: none;
+	}
+		@media screen and (max-width : 768px) {
+			img#responsive {
+				display: block;
+			}
+
 		}
 	</style>
 </head>
 <body>
 	<p>Hola desde Guitarras</p>
+	<img id="responsive" src="responsive.png" alt="">
 </body>
 </html>
